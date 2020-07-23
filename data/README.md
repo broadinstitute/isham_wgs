@@ -4,6 +4,8 @@
 
 ## Standardized VCF files in [figshare](https://figshare.com/s/21e8039b0fa31ea7b7f8).
 
+## Dataset and pipeline summary:
+
 | ID	| Institutes	| SNP Caller |  
 |-------|---------------|------------|
 | ds1-cfsan	| A	| CFSAN |
