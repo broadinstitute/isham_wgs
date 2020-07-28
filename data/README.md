@@ -6,8 +6,8 @@ VCF files submitted by each participant.
 ### Standardized VCF files in [figshare](https://figshare.com/s/d9dc6b06e701c9a2ed9a).
 Reformatted standard VCF files for pipelines comparison for each participant. 
 
-### FASTA alignments and pairwise SNP matrix in [figshare](https://figshare.com/s/d9dc6b06e701c9a2ed9a).
-Whole genome SNPs FASTA alignments and pairwise SNP counts matrix submitted by each participant.
+### FASTA alignments and pairwise SNP matrices in [figshare](https://figshare.com/s/d9dc6b06e701c9a2ed9a).
+Whole genome SNPs FASTA alignment and pairwise SNP counts matrix submitted by each participant.
 
 
 ## Dataset and pipeline summary:
