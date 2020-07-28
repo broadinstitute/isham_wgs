@@ -1,10 +1,14 @@
 # ISHAM raw and standardized VCF files
 
 ### Raw VCF files in [figshare](https://figshare.com/s/21e8039b0fa31ea7b7f8).
+VCF files submitted by each participant.
 
 ### Standardized VCF files in [figshare](https://figshare.com/s/d9dc6b06e701c9a2ed9a).
+Reformatted standard VCF files for pipelines comparison for each participant. 
 
-### FASTA alignments and pairwise SNP counts matrix in [figshare](https://figshare.com/s/d9dc6b06e701c9a2ed9a)..
+### FASTA alignments and pairwise SNP matrix in [figshare](https://figshare.com/s/d9dc6b06e701c9a2ed9a).
+Whole genome SNPs FASTA alignments and pairwise SNP counts matrix submitted by each participant.
+
 
 ## Dataset and pipeline summary:
 
