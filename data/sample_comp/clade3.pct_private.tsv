@@ -1,0 +1,4 @@
+Sample	ds01-cfsan	ds02-gatk3	ds03-gatk3	ds04-gatk3	ds05-gatk3	ds06-gatk3	ds07-gatk4	ds08-gatk4	ds09-samtl	ds10-samtl	ds11-smtrm	ds12-pilon
+CA05	0.48	0.2	0.0	0.17	0.0	0.04	0.09	0.01	0.05	0.1	0.22	1.02
+CA15	0.45	0.2	0.0	0.2	0.0	0.04	0.08	0.06	0.06	0.09	0.41	1.01
+CA23	0.5	0.22	0.0	0.16	0.0	0.05	0.1	0.01	0.06	0.08	0.36	1.03

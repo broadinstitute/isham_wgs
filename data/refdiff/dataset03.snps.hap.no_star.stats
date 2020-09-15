@@ -1,0 +1,227 @@
+# This file was produced by bcftools stats (1.8+htslib-1.8) and can be plotted using plot-vcfstats.
+# The command line was:	bcftools stats  -s- dataset03.snps.hap.no_star.mini.vcf.gz
+#
+# Definition of sets:
+# ID	[2]id	[3]tab-separated file names
+ID	0	dataset03.snps.hap.no_star.mini.vcf.gz
+# SN, Summary numbers:
+#   number of records   .. number of data rows in the VCF
+#   number of no-ALTs   .. reference-only sites, ALT is either "." or identical to REF
+#   number of SNPs      .. number of rows with a SNP
+#   number of MNPs      .. number of rows with a MNP, such as CC>TT
+#   number of indels    .. number of rows with an indel
+#   number of others    .. number of rows with other type, for example a symbolic allele or
+#                          a complex substitution, such as ACT>TCGA
+#   number of multiallelic sites     .. number of rows with multiple alternate alleles
+#   number of multiallelic SNP sites .. number of rows with multiple alternate alleles, all SNPs
+# 
+#   Note that rows containing multiple types will be counted multiple times, in each
+#   counter. For example, a row with a SNP and an indel increments both the SNP and
+#   the indel counter.
+# 
+# SN	[2]id	[3]key	[4]value
+SN	0	number of samples:	35
+SN	0	number of records:	222361
+SN	0	number of no-ALTs:	0
+SN	0	number of SNPs:	222361
+SN	0	number of MNPs:	0
+SN	0	number of indels:	0
+SN	0	number of others:	0
+SN	0	number of multiallelic sites:	1268
+SN	0	number of multiallelic SNP sites:	1268
+# TSTV, transitions/transversions:
+# TSTV	[2]id	[3]ts	[4]tv	[5]ts/tv	[6]ts (1st ALT)	[7]tv (1st ALT)	[8]ts/tv (1st ALT)
+TSTV	0	142401	81228	1.75	141968	80393	1.77
+# SiS, Singleton stats:
+# SiS	[2]id	[3]allele count	[4]number of SNPs	[5]number of transitions	[6]number of transversions	[7]number of indels	[8]repeat-consistent	[9]repeat-inconsistent	[10]not applicable
+SiS	0	1	2103	1254	849	0	0	0	0
+# AF, Stats by non-reference allele frequency:
+# AF	[2]id	[3]allele frequency	[4]number of SNPs	[5]number of transitions	[6]number of transversions	[7]number of indels	[8]repeat-consistent	[9]repeat-inconsistent	[10]not applicable
+AF	0	0.000000	2798	1605	1193	0	0	0	0
+AF	0	0.050000	451	263	188	0	0	0	0
+AF	0	0.060000	304	162	142	0	0	0	0
+AF	0	0.070000	87	47	40	0	0	0	0
+AF	0	0.080000	15223	9676	5547	0	0	0	0
+AF	0	0.090000	1186	727	459	0	0	0	0
+AF	0	0.100000	135	79	56	0	0	0	0
+AF	0	0.110000	24291	15442	8849	0	0	0	0
+AF	0	0.120000	762	435	327	0	0	0	0
+AF	0	0.130000	363	217	146	0	0	0	0
+AF	0	0.140000	281	164	117	0	0	0	0
+AF	0	0.150000	683	400	283	0	0	0	0
+AF	0	0.160000	102	63	39	0	0	0	0
+AF	0	0.170000	286	160	126	0	0	0	0
+AF	0	0.180000	738	393	345	0	0	0	0
+AF	0	0.190000	6590	4199	2391	0	0	0	0
+AF	0	0.200000	1867	1004	863	0	0	0	0
+AF	0	0.210000	281	163	118	0	0	0	0
+AF	0	0.220000	116715	75584	41131	0	0	0	0
+AF	0	0.230000	5262	3224	2038	0	0	0	0
+AF	0	0.240000	1800	1036	764	0	0	0	0
+AF	0	0.250000	2507	1532	975	0	0	0	0
+AF	0	0.260000	1184	715	469	0	0	0	0
+AF	0	0.270000	863	487	376	0	0	0	0
+AF	0	0.280000	269	166	103	0	0	0	0
+AF	0	0.290000	358	218	140	0	0	0	0
+AF	0	0.300000	499	276	223	0	0	0	0
+AF	0	0.310000	5698	3730	1968	0	0	0	0
+AF	0	0.320000	507	294	213	0	0	0	0
+AF	0	0.330000	13998	8949	5049	0	0	0	0
+AF	0	0.340000	580	378	202	0	0	0	0
+AF	0	0.350000	701	417	284	0	0	0	0
+AF	0	0.360000	208	119	89	0	0	0	0
+AF	0	0.370000	171	98	73	0	0	0	0
+AF	0	0.380000	82	50	32	0	0	0	0
+AF	0	0.390000	462	306	156	0	0	0	0
+AF	0	0.400000	273	161	112	0	0	0	0
+AF	0	0.410000	39	24	15	0	0	0	0
+AF	0	0.420000	12850	8188	4662	0	0	0	0
+AF	0	0.430000	416	272	144	0	0	0	0
+AF	0	0.440000	111	65	46	0	0	0	0
+AF	0	0.450000	99	57	42	0	0	0	0
+AF	0	0.460000	85	58	27	0	0	0	0
+AF	0	0.470000	51	28	23	0	0	0	0
+AF	0	0.480000	1	0	1	0	0	0	0
+AF	0	0.490000	102	53	49	0	0	0	0
+AF	0	0.500000	364	185	179	0	0	0	0
+AF	0	0.510000	48	32	16	0	0	0	0
+AF	0	0.520000	65	35	30	0	0	0	0
+AF	0	0.530000	8	6	2	0	0	0	0
+AF	0	0.540000	35	20	15	0	0	0	0
+AF	0	0.550000	21	7	14	0	0	0	0
+AF	0	0.560000	13	6	7	0	0	0	0
+AF	0	0.570000	11	5	6	0	0	0	0
+AF	0	0.580000	1	1	0	0	0	0	0
+AF	0	0.590000	45	27	18	0	0	0	0
+AF	0	0.600000	2	0	2	0	0	0	0
+AF	0	0.610000	14	8	6	0	0	0	0
+AF	0	0.620000	4	4	0	0	0	0	0
+AF	0	0.630000	7	4	3	0	0	0	0
+AF	0	0.640000	2	2	0	0	0	0	0
+AF	0	0.650000	1	0	1	0	0	0	0
+AF	0	0.660000	13	8	5	0	0	0	0
+AF	0	0.670000	3	2	1	0	0	0	0
+AF	0	0.680000	3	0	3	0	0	0	0
+AF	0	0.690000	13	9	4	0	0	0	0
+AF	0	0.700000	5	2	3	0	0	0	0
+AF	0	0.710000	2	2	0	0	0	0	0
+AF	0	0.720000	26	15	11	0	0	0	0
+AF	0	0.730000	6	3	3	0	0	0	0
+AF	0	0.740000	30	20	10	0	0	0	0
+AF	0	0.750000	2	0	2	0	0	0	0
+AF	0	0.760000	3	1	2	0	0	0	0
+AF	0	0.770000	7	4	3	0	0	0	0
+AF	0	0.780000	1	0	1	0	0	0	0
+AF	0	0.790000	16	8	8	0	0	0	0
+AF	0	0.800000	1	0	1	0	0	0	0
+AF	0	0.810000	2	1	1	0	0	0	0
+AF	0	0.820000	2	2	0	0	0	0	0
+AF	0	0.830000	1	1	0	0	0	0	0
+AF	0	0.840000	2	1	1	0	0	0	0
+AF	0	0.860000	7	4	3	0	0	0	0
+AF	0	0.880000	2	0	2	0	0	0	0
+AF	0	0.890000	5	2	3	0	0	0	0
+AF	0	0.900000	1	1	0	0	0	0	0
+AF	0	0.910000	5	2	3	0	0	0	0
+AF	0	0.920000	16	6	10	0	0	0	0
+AF	0	0.930000	351	193	158	0	0	0	0
+AF	0	0.950000	5	2	3	0	0	0	0
+AF	0	0.960000	96	57	39	0	0	0	0
+AF	0	0.990000	43	29	14	0	0	0	0
+# QUAL, Stats by quality:
+# QUAL	[2]id	[3]Quality	[4]number of SNPs	[5]number of transitions (1st ALT)	[6]number of transversions (1st ALT)	[7]number of indels
+QUAL	0	998	222361	141968	80393	0
+# IDD, InDel distribution:
+# IDD	[2]id	[3]length (deletions negative)	[4]count
+# ST, Substitution types:
+# ST	[2]id	[3]type	[4]count
+ST	0	A>C	8864
+ST	0	A>G	34875
+ST	0	A>T	15133
+ST	0	C>A	9490
+ST	0	C>G	7363
+ST	0	C>T	36405
+ST	0	G>A	36568
+ST	0	G>C	7360
+ST	0	G>T	9405
+ST	0	T>A	14977
+ST	0	T>C	34553
+ST	0	T>G	8636
+# DP, Depth distribution
+# DP	[2]id	[3]bin	[4]number of genotypes	[5]fraction of genotypes (%)	[6]number of sites	[7]fraction of sites (%)
+# PSC, Per-sample counts. Note that the ref/het/hom counts include only SNPs, for indels see PSI. The rest include both SNPs and indels.
+# PSC	[2]id	[3]sample	[4]nRefHom	[5]nNonRefHom	[6]nHets	[7]nTransitions	[8]nTransversions	[9]nIndels	[10]average depth	[11]nSingletons	[12]nHapRef	[13]nHapAlt	[14]nMissing
+PSC	0	CA01	0	0	0	0	0	0	0.0	0	150429	63905	8027
+PSC	0	CA02	0	0	0	0	0	0	0.0	0	51107	167701	3553
+PSC	0	CA03	0	0	0	0	0	0	0.0	0	220249	1001	1111
+PSC	0	CA04	0	0	0	0	0	0	0.0	0	220665	992	704
+PSC	0	CA05	0	0	0	0	0	0	0.0	0	176571	44421	1369
+PSC	0	CA06	0	0	0	0	0	0	0.0	0	51515	168258	2588
+PSC	0	CA07	0	0	0	0	0	0	0.0	0	216765	1022	4574
+PSC	0	CA08	0	0	0	0	0	0	0.0	0	215797	975	5589
+PSC	0	CA09	0	0	0	0	0	0	0.0	0	219624	987	1750
+PSC	0	CA10	0	0	0	0	0	0	0.0	0	149709	63998	8654
+PSC	0	CA11	0	0	0	0	0	0	0.0	0	150237	63954	8170
+PSC	0	CA12	0	0	0	0	0	0	0.0	0	51153	168807	2401
+PSC	0	CA13	0	0	0	0	0	0	0.0	0	220025	968	1368
+PSC	0	CA14	0	0	0	0	0	0	0.0	0	220828	971	562
+PSC	0	CA15	0	0	0	0	0	0	0.0	0	176224	44373	1764
+PSC	0	CA16	0	0	0	0	0	0	0.0	0	51510	168513	2338
+PSC	0	CA17	0	0	0	0	0	0	0.0	0	218753	987	2621
+PSC	0	CA18	0	0	0	0	0	0	0.0	0	218845	984	2532
+PSC	0	CA19	0	0	0	0	0	0	0.0	0	51128	168621	2612
+PSC	0	CA20	0	0	0	0	0	0	0.0	0	220615	266	1480
+PSC	0	CA21	0	0	0	0	0	0	0.0	0	220411	986	964
+PSC	0	CA22	0	0	0	0	0	0	0.0	0	150701	64171	7489
+PSC	0	CA23	0	0	0	0	0	0	0.0	0	175485	44279	2597
+PSC	0	CA24	0	0	0	0	0	0	0.0	0	51507	168260	2594
+PSC	0	CA25	0	0	0	0	0	0	0.0	0	218284	956	3121
+PSC	0	CA26	0	0	0	0	0	0	0.0	0	216484	963	4914
+PSC	0	CA27	0	0	0	0	0	0	0.0	0	215813	964	5584
+PSC	0	CA28	0	0	0	0	0	0	0.0	0	219584	988	1789
+PSC	0	CA29	0	0	0	0	0	0	0.0	0	219347	983	2031
+PSC	0	CA30	0	0	0	0	0	0	0.0	0	215750	0	6611
+PSC	0	CA31	0	0	0	0	0	0	0.0	0	51036	168424	2901
+PSC	0	CA32	0	0	0	0	0	0	0.0	0	218474	959	2928
+PSC	0	CA33	0	0	0	0	0	0	0.0	0	51061	168619	2681
+PSC	0	CA34	0	0	0	0	0	0	0.0	0	217948	987	3426
+PSC	0	CA35	0	0	0	0	0	0	0.0	0	215825	975	5561
+# PSI, Per-Sample Indels
+# PSI	[2]id	[3]sample	[4]in-frame	[5]out-frame	[6]not applicable	[7]out/(in+out) ratio	[8]nHets	[9]nAA
+PSI	0	CA01	0	0	0	0.00	0	0
+PSI	0	CA02	0	0	0	0.00	0	0
+PSI	0	CA03	0	0	0	0.00	0	0
+PSI	0	CA04	0	0	0	0.00	0	0
+PSI	0	CA05	0	0	0	0.00	0	0
+PSI	0	CA06	0	0	0	0.00	0	0
+PSI	0	CA07	0	0	0	0.00	0	0
+PSI	0	CA08	0	0	0	0.00	0	0
+PSI	0	CA09	0	0	0	0.00	0	0
+PSI	0	CA10	0	0	0	0.00	0	0
+PSI	0	CA11	0	0	0	0.00	0	0
+PSI	0	CA12	0	0	0	0.00	0	0
+PSI	0	CA13	0	0	0	0.00	0	0
+PSI	0	CA14	0	0	0	0.00	0	0
+PSI	0	CA15	0	0	0	0.00	0	0
+PSI	0	CA16	0	0	0	0.00	0	0
+PSI	0	CA17	0	0	0	0.00	0	0
+PSI	0	CA18	0	0	0	0.00	0	0
+PSI	0	CA19	0	0	0	0.00	0	0
+PSI	0	CA20	0	0	0	0.00	0	0
+PSI	0	CA21	0	0	0	0.00	0	0
+PSI	0	CA22	0	0	0	0.00	0	0
+PSI	0	CA23	0	0	0	0.00	0	0
+PSI	0	CA24	0	0	0	0.00	0	0
+PSI	0	CA25	0	0	0	0.00	0	0
+PSI	0	CA26	0	0	0	0.00	0	0
+PSI	0	CA27	0	0	0	0.00	0	0
+PSI	0	CA28	0	0	0	0.00	0	0
+PSI	0	CA29	0	0	0	0.00	0	0
+PSI	0	CA30	0	0	0	0.00	0	0
+PSI	0	CA31	0	0	0	0.00	0	0
+PSI	0	CA32	0	0	0	0.00	0	0
+PSI	0	CA33	0	0	0	0.00	0	0
+PSI	0	CA34	0	0	0	0.00	0	0
+PSI	0	CA35	0	0	0	0.00	0	0
+# HWE
+# HWE	[2]id	[3]1st ALT allele frequency	[4]Number of observations	[5]25th percentile	[6]median	[7]75th percentile
