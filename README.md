@@ -1,14 +1,50 @@
-# Genomic epidemiology of *Candida auris* - Benchmarking Variants Identification
+# Comparison of genomic variant identification protocols for fungi
+## Background
+This is a consortium effort from the International Society for Human and Animal Mycology (ISHAM) community, with 11 independent groups across four continents, for the aim of establishing a best practice of genomic variant identification pipeline. For convenors and members of the working group, check [here](#WG).
 
-## [Manuscript details here: title, authors, date]
+## Repository
+This is a repository with data and analysis script needed to reproduce most of the analyses benchmarking genomic variant identification protocols for the fungal community.
 
-## International Society for Human and Animal Mycology - ISHAM
-### Working group: Genomic Epidemiology of Fungal Infections
-#### Convenor(s):
+The repository was structured as follows:
+ - [data](./data): data needed
+ - [figs](./figs): figures reproduced from the jupyter notebook.
+ - [analysis.ipynb](./analysis.ipynb): jupyter notebook to reproduce results from the corresponding manuscript.
+ - [README.md](./README.md): this file.
+
+## Usage & Dependencies
+To reproduce figures from the manuscript, make sure the following tools are available
+- [Python >= 3.4](https://www.python.org/)
+- [pip3 >=20.1.1](https://pip.pypa.io/)
+
+Install the following python 3 packages via [pip](https://pip.pypa.io/):
+```sh
+pip install statistics,matplotlib,pandas,numpy,funpipe,jupyter
+```
+
+Clone this repo:
+```sh
+git clone git://github.com/broadinstitute/isham_wgs.git
+cd isham_wgs
+jupyter notebook analysis.ipynb
+```
+Note that additional tools and the [raw VCF files](https://figshare.com/s/21e8039b0fa31ea7b7f8) are needed to reproduce the analysis from scratch, including:
+ - vcftools-v0.1.15
+ - zlib-1.2.11
+ - bcftools-v1.8
+ - htslib-v1.10.2 (bgzip and tabix)
+
+Uncomment bash sections of the notebook to fully reproduce the analysis.
+Check [here](data/README.md) for paths to the submitted files from all 11 groups.
+
+## <a name='WG'>Working group: Genomic Epidemiology of Fungal Infections</a>
+[Overview, Achievements and Publications](https://www.isham.org/working-groups/genomic-epidemiology-fungal-infections)
+
+Convenor(s)
 * Christina Cuomo (cuomo@broadinstitute.org)
 * Anastasia Litvintseva (frq8@cdc.gov)
 * Ana Alastruey-Izquierdo (anaalastruey@isciii.es)
 * Matthew Fisher (matthew.fisher@imperial.ac.uk)
 * David Engelthaler (dengelthaler@tgen.org)
 
-### [Overview, Achievements and Publications](https://www.isham.org/working-groups/genomic-epidemiology-fungal-infections).
+## Issues
+Contact [Xiao Li](https://github.com/xiaoli0) (xiaoli@broadinstitute.org) if you have any analysis related questions. Submit an [issue](https://github.com/broadinstitute/isham_wgs/issues) for bugs.
