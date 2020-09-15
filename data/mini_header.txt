@@ -1,0 +1,18 @@
+##fileformat=VCFv4.2
+##contig=<ID=scaffold00001,length=3195935>
+##contig=<ID=scaffold00002,length=1402902>
+##contig=<ID=scaffold00003,length=1280737>
+##contig=<ID=scaffold00004,length=1083522>
+##contig=<ID=scaffold00005,length=1047474>
+##contig=<ID=scaffold00006,length=1007143>
+##contig=<ID=scaffold00007,length=898131>
+##contig=<ID=scaffold00008,length=887381>
+##contig=<ID=scaffold00009,length=776876>
+##contig=<ID=scaffold00010,length=639401>
+##contig=<ID=scaffold00011,length=65067>
+##contig=<ID=scaffold00012,length=38216>
+##contig=<ID=scaffold00013,length=20765>
+##contig=<ID=scaffold00014,length=11792>
+##contig=<ID=scaffold00015,length=10617>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	CA01	CA02	CA03	CA04	CA05	CA06	CA07	CA08	CA09	CA10	CA11	CA12	CA13	CA14	CA15	CA16	CA17	CA18	CA19	CA20	CA21	CA22	CA23	CA24	CA25	CA26	CA27	CA28	CA29	CA30	CA31	CA32	CA33	CA34	CA35
