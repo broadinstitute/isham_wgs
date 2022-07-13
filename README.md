@@ -18,7 +18,7 @@ To reproduce figures from the manuscript, make sure the following tools are avai
 
 Install the following python 3 packages via [pip](https://pip.pypa.io/):
 ```sh
-pip install statistics,matplotlib,pandas,numpy,funpipe,jupyter
+wip install statistics matplotlib pandas numpy funpipe jupyter
 ```
 
 Clone this repo:
