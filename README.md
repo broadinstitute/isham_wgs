@@ -1,6 +1,22 @@
-# Comparison of genomic variant identification protocols for fungi
+<!-- markdownlint-disable MD033 MD041 -->
+<h2 align="center">
+ISHAM Fungal WGS protocol benchmarking
+</h2>
+<p align ="center">
+<strong>Comparison of genomic variant identification protocols for <i>Candidas auris</i></strong>
+</p>
+
+<p align ="center">
+  <a title="Python Version"> <img src='https://img.shields.io/badge/Python-3.4%2B-brightgreen'> </a>
+  <a href="https://jupyter.org/try" title="Jupyter"> <img src='https://img.shields.io/badge/MADE%20WITH-JUPYTER-orange'> </a>
+  <a href="https://doi.org/10.1099/mgen.0.000979" title='doi'> <img src='https://img.shields.io/badge/doi-10.1099%2Fmgen.0.000979-brightgreen'> </a>
+  <a href="https://pubmed.ncbi.nlm.nih.gov/37043380/" title="PubMed ID"> <img src='https://img.shields.io/badge/PMID-37043380-blue'> </a>
+</p>
+
+---
+
 ## Background
-This is a consortium effort from the International Society for Human and Animal Mycology (ISHAM) community, with 11 independent groups across four continents, for the aim of establishing a best practice of genomic variant identification pipeline. For convenors and members of the working group, check [here](#WG).
+This is a consortium effort from the International Society for Human and Animal Mycology (ISHAM) community, with 11 independent groups across four continents, for the aim of establishing a best practice of genomic variant identification pipeline. For convenors and members of the working group, check below.
 
 ## Repository
 This is a repository with data and analysis script needed to reproduce most of the analyses benchmarking genomic variant identification protocols for the fungal community.
@@ -18,7 +34,7 @@ To reproduce figures from the manuscript, make sure the following tools are avai
 
 Install the following python 3 packages via [pip](https://pip.pypa.io/):
 ```sh
-wip install statistics matplotlib pandas numpy funpipe jupyter
+pip install statistics matplotlib pandas numpy funpipe=0.1.0 jupyter
 ```
 
 Clone this repo:
@@ -36,7 +52,7 @@ Note that additional tools and the [raw VCF files](https://figshare.com/s/21e803
 Uncomment bash sections of the notebook to fully reproduce the analysis.
 Check [here](data/README.md) for paths to the submitted files from all 11 groups.
 
-## <a name='WG'>Working group: Genomic Epidemiology of Fungal Infections</a>
+## Working group: Genomic Epidemiology of Fungal Infections
 [Overview, Achievements and Publications](https://www.isham.org/working-groups/genomic-epidemiology-fungal-infections)
 
 Convenor(s)
@@ -45,6 +61,11 @@ Convenor(s)
 * Ana Alastruey-Izquierdo (anaalastruey@isciii.es)
 * Matthew Fisher (matthew.fisher@imperial.ac.uk)
 * David Engelthaler (dengelthaler@tgen.org)
+
+## Citation
+To citate this work, use the following:
+
+Li X, Muñoz JF, Gade L, Argimon S, Bougnoux ME, Bowers JR, Chow NA, Cuesta I, Farrer RA, Maufrais C, Monroy-Nieto J, Pradhan D, Uehling J, Vu D, Yeats CA, Aanensen DM, d'Enfert C, Engelthaler DM, Eyre DW, Fisher MC, Hagen F, Meyer W, Singh G, Alastruey-Izquierdo A, Litvintseva AP, Cuomo CA. Comparing genomic variant identification protocols for Candida auris. Microb Genom. 2023 Apr;9(4). doi: 10.1099/mgen.0.000979. PMID: 37043380.
 
 ## Issues
 Contact [Xiao Li](https://github.com/xiaoli0) (xiaoli@broadinstitute.org) if you have any analysis related questions. Submit an [issue](https://github.com/broadinstitute/isham_wgs/issues) for bugs.
