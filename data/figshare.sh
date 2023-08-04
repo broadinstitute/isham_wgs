@@ -21,7 +21,8 @@ ln -s ${RAW}/DuongVu_Netherlands/PEKT35_allsnps.fasta dataset08.fasta
 ln -s ${RAW}/David_Oxford_UK/variable_sites_alignment.fa dataset09.fasta
 ln -s ${RAW}/Lalitha_CDC_US/CDC_Prinseq_NASP_samtools/CDC_Prinseq_NASP_samtools_finalfasta.fasta dataset10.fasta
 ln -s ${RAW}/Lalitha_CDC_US/CDC_NASP_Trimmomatic_samtools_quality/CDC_Trimmomatic_qualtrim_Samtools_finalfasta.fasta dataset11.fasta
-ln -s ${RAW}/Rhys_BROAD_US/rhys_combined_pilon.pass.snps.fasta dataset12.fasta
+ln -s ${RAW}/Rhys_BROAD_US/pilon_EVCA_reformat.fa dataset12.fasta
+# note: the only difference between pilon_EVCA_reformat.fa and EVCA-positions-from-v-Name_tab_Type_Cauris_new.tab-m-4-s-2-i-n-e-N-z-N.fasta (the raw file) is there's no space between > and contig name in the former file.
 
 ## TREE
 cd figshare_tree
