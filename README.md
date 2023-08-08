@@ -50,7 +50,10 @@ Note that additional tools and the [raw VCF files](https://figshare.com/s/21e803
  - htslib-v1.10.2 (bgzip and tabix)
 
 Uncomment bash sections of the notebook to fully reproduce the analysis.
-Check [here](data/README.md) for paths to the submitted files from all 11 groups.
+
+## Data Availability
+All raw data's submitted to NCBI. Important outputs are shared in this [figshare project](https://figshare.com/account/home#/projects/86372). 
+Check [here](data/README.md) for paths to the submitted files from all 12 groups.
 
 ## Working group: Genomic Epidemiology of Fungal Infections
 [Overview, Achievements and Publications](https://www.isham.org/working-groups/genomic-epidemiology-fungal-infections)

@@ -11,6 +11,9 @@ Whole genome SNPs FASTA alignment and pairwise SNP counts matrix submitted by ea
 
 Script to map files to figshare is [here](./figshare.sh).
 
+### Consensus VCF in [figshare](https://figshare.com/ndownloader/files/41903319)
+Consensus VCF including common variants of all datasets.
+
 ## Dataset and pipeline summary:
 
 | ID          | Institutes    | SNP Caller                           |
